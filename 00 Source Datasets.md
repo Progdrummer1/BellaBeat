@@ -7,7 +7,7 @@ Acknowlegement
 Furberg, Robert; Brinton, Julia; Keating, Michael ; Ortiz, Alexa
 https://zenodo.org/record/53894#.YMoUpnVKiP9
 
-From this source, I will use the following files:
-"Fitabase Data 3.12.16-4.11.16\dailyActivity_merged.csv"
-"Fitabase Data 4.12.16-5.12.16\dailyActivity_merged.csv"
+From this source, I will use the following files:  
+"Fitabase Data 3.12.16-4.11.16\dailyActivity_merged.csv"  
+"Fitabase Data 4.12.16-5.12.16\dailyActivity_merged.csv"  
 "Fitabase Data 4.12.16-5.12.16\sleepDay_merged.csv""
