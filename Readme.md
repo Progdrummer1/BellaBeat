@@ -1,3 +1,4 @@
+## BellaBeat: Using R to research relations in fitness trackers. 
 # Ask
 
 By identifying trends in **smart device usage**, one can tailor one’s marketing strategy towards these trends. 
