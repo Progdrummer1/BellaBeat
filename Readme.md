@@ -1,4 +1,4 @@
-# BellaBeat: Using R to research relations in fitness variables. 
+# BellaBeat: Using R to research relations in fitness metrics. 
 
 # Introduction
 In this case study BellaBeat has hired me as a junior data analyst. BellaBeat is a high-tech manufacturer of health-focused
