@@ -4,8 +4,8 @@ library(skimr)
 library(janitor)
 
 #import Daily activity data sets
-dActivity<- read.csv("C:/Users/Frank/Documents/Google Course Data/Capstone_Project_Bellabeat/Data/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/dailyActivity_merged.csv")
-dActivity2 <- read.csv("C:/Users/Frank/Documents/Google Course Data/Capstone_Project_Bellabeat/Data/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
+dActivity<- read.csv(".../Capstone_Project_Bellabeat/Data/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/dailyActivity_merged.csv")
+dActivity2 <- read.csv(".../Capstone_Project_Bellabeat/Data/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
 
 
 #Removing overlapping date
