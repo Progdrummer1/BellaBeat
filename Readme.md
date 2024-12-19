@@ -2,7 +2,7 @@
 
 # Introduction
 In this case study BellaBeat has hired me as a junior data analyst. BellaBeat is a high-tech manufacturer of health-focused
- products for women. They sell several smart devices tracking activity, sleep, stress, and reproductive health. My task is to identify trends found in fitness data gathered by Fitbits, so not their own devices. By doing this they hope to be able to improve their marketing strategy. 
+ products for women. They sell several smart devices tracking activity, sleep, stress, and reproductive health. My task is to identify trends found in fitness data gathered by Fitbit. By doing this they hope to be able to gather valuable information to improve their own marketing strategy. 
 
 To answer this question, I will go through the process of:
 
