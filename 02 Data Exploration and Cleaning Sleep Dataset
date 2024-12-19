@@ -2,7 +2,7 @@
 library(dplyr)
 
 #Importing data
-sleepDay <- read.csv("C:/Users/Frank/Documents/Google Course Data/Capstone_Project_Bellabeat/Data/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv")
+sleepDay <- read.csv(".../Capstone_Project_Bellabeat/Data/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv")
 
 #renaming ambigue column name
 sleepDay <-sleepDay %>%
