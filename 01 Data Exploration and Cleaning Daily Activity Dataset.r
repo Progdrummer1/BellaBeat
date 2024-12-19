@@ -73,3 +73,39 @@ print(dActivity_both_data_types)
 #LightlyActiveMinutes     SedentaryMinutes                  Calories 
 #"integer"                "integer"                         "integer" 
 #transform ActivityDate into Date 
+
+#Changing to date data type
+dActivity_both$ActivityDate <- as.Date(dActivity_both$ActivityDate, format = "%m/%d/%Y")
+dActivity_both_data_types <- sapply(dActivity_both, class)
+print(dActivity_both_data_types)
+
+#Id                       ActivityDate                     TotalSteps 
+#"double"                 "Date"                      "integer" 
+#TotalDistance            TrackerDistance LoggedActivities  Distance 
+#"double"                 "double"                         "double" 
+#VeryActiveDistance       ModeratelyActiveDistance          LightActiveDistance 
+#"double"                 "double"                         "double" 
+#SedentaryActiveDistance  VeryActiveMinutes                FairlyActiveMinutes 
+#"double"                 "integer"                        "integer" 
+#LightlyActiveMinutes     SedentaryMinutes                  Calories 
+#"integer"                "integer"                         "integer" 
+#transform ActivityDate into Date 
+
+#check if all dates values have the same length. 
+length_check <- sapply(dActivity_both$ActivityDate, nchar)
+all(length_check == length_check[1]) # TRUE
+
+library(dplyr)
+
+#any empty values?
+any(is.na(dActivity_both))
+#False
+
+#any null values?
+any(is.null(dActivity_both))
+#false
+
+dActivity_both <- dActivity_both %>% 
+    filter(SedentaryMinutes != 1440)
+
+skim_without_charts(dActivity_both)
