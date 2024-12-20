@@ -37,10 +37,7 @@ As stated before,  trends in Fitbit Data have been identified so BellaBeat can i
 2\. How could these trends apply to BellaBeat customers?  
 3\. How could these trends help influence BellaBeat marketing strategy?
 
-The following are the stakeholders for which this report is made and will be presented to:
-
-* Urška Sršen: BellaBeat’s co-founder and Chief Creative Officer.   
-* Sando Mur: Mathematician and BellaBeat’s co-founder; key member of the BellaBeat executive team.
+Thera are two stakeholders for which this report is made and will be presented to. First, there is Urška Sršen: BellaBeat’s co-founder and Chief Creative Officer. And second, there is Sando Mur, who is a Mathematician and BellaBeat’s co-founder, he's a key member of the BellaBeat executive team.
 
 # Prepare 
 
