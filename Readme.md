@@ -37,6 +37,8 @@ As stated before, in this report trends in Fitbit data have been identified so B
 2\. How could these trends apply to BellaBeat customers?  
 3\. How could these trends help influence BellaBeat marketing strategy?
 
+I will answer these questions by cleaning and analyzing data from 30 Fitbit users. By identifying trends in this data and identifying how they apply to BellaBeat users I can inform BellaBeat how to apply these trends to their marketing strategy. 
+
 Thera are two stakeholders for which this report is made and will be presented to. First, there is Urška Sršen: BellaBeat’s co-founder and Chief Creative Officer. And second, there is Sando Mur, who is a Mathematician and BellaBeat’s co-founder, therefore a key member of the BellaBeat executive team.
 
 # Prepare 
