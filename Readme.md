@@ -58,7 +58,7 @@ The data is organized in a long format. The data description states that there a
 R script: [01 Data Exploration and Cleaning Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/01%20Data%20Exploration%20and%20Cleaning%20Daily%20Activity%20Dataset.r)
 
 **Sleep Dataset**  
-This dataset contains the following variables:  Id, SleepDay, TotalSleepRecord, TotalMinutesAsleep, TotalTimeInBed. The maximum and minimum values of each column seem reasonable.  
+This dataset contains the following variables:  "Id", "SleepDay", "TotalSleepRecord", "TotalMinutesAsleep", "TotalTimeInBed". The maximum and minimum values of each column seem reasonable.  
 R script: [02 Data Exploration and Cleaning Sleep Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset)
 
 **Limitations of the data:**
@@ -68,7 +68,7 @@ R script: [02 Data Exploration and Cleaning Sleep Dataset.r](https://github.com/
 # Process
 
 **Changelog**  
-I captured all the changed I made to the data in this [Case_Study_2_ Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
+I captured all the changed I made to the data in this changelog: [Case_Study_2_ Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
 
 **Activity Data**
 * The cleaning script can be found here: [01 Data Exploration and Cleaning Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/01%20Data%20Exploration%20and%20Cleaning%20Daily%20Activity%20Dataset.r).
@@ -85,7 +85,7 @@ taset, showing the steps taken per hour, one can see that that day start from 12
 * Renamed the “SleepDay” column to “Day” to avoid ambiguity with the dataset name “sleepDay”.  
 * Removed 3 duplicates from the sleepDay dataset.   
 * Checked for empty and NULL values, which were not present.  
-* Removed the times from Day column, to only keep the date.  
+* Removed the times from the "Day" column, to only keep the date.  
 
 
 
@@ -94,7 +94,7 @@ taset, showing the steps taken per hour, one can see that that day start from 12
 [02 Data Exploration and Cleaning Sleep Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset) 
   
 **Check for normality**  
-I checked whether the variables ‘calories’ and ‘amount of sleep’ are normally distributed. However, they were not. Therefore, I only used the non-parametric Spearman’s correlation test.
+I checked whether the variables "calories" and "amount of sleep" are normally distributed. However, they were not. Therefore, I only used the non-parametric Spearman’s correlation test.
 
 **Correlations with Calories**  
 I calculated the spearman’s correlations with calories and the other variables, to see what influences the amount of calories spent the most. One can see that the strongest correlations were with "TotalSteps", "TotalDistance" and "VeryActiveMinutes". 
