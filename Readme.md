@@ -303,7 +303,9 @@ cor.test(dActivity_both$TotalSteps ,dActivity_both$Calories)
 **Relation between calories and very active minutes**   
 Since the amount of calories is not normally distributed, I could only use non-parametric tests. Spearman’s correlation  test gives a correlation of  0.52 with a  p-value \< 2.2e-16 (see script above). This means there is a moderate monotonic relation between calories and the amount of steps taken. 
 
-<img src="https://github.com/user-attachments/assets/bfbcff2d-004d-4f81-a159-d95e0a6ef40b" alt="Relation_Calories_Very_Active_Minutes" width="600">
+<img src="https://github.com/user-attachments/assets/95276427-c42e-4c97-8243-8a957ad03f8b" alt="Relation_Calories_Very_Active_Minutes" width="600">
+
+
 
 **Relation between calories and steps**  
 I calculated the correlation between calories and total steps (see script above). Spearman’s correlation  test gives a correlation of  0.55 with a  p-value \< 2.2e-16. This means there is a moderate monotonic relation between calories and the amount of steps taken. 
