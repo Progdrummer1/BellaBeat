@@ -21,16 +21,11 @@ In this case study BellaBeat has hired me as a junior data analyst. BellaBeat is
 
 To answer this question, the following steps will be undertaken:
 
-**Ask:** What is the business question that has to be addressed and how to get to the answer?
-
-**Prepare**: How to gather good quality data to answer this question?
-
-**Process:** Clean and prepare data for analysis.
-
-**Analyze:** Analyze the data to get meaningful results, relating to the question to be answered.
-
-**Share:** Make compelling visuals in line with what you want to convey to your stakeholders.
-
+**Ask:** What is the business question that has to be addressed and how to get to the answer?  
+**Prepare**: How to gather good quality data to answer this question?  
+**Process:** Clean and prepare data for analysis.  
+**Analyze:** Analyze the data to get meaningful results, relating to the question to be answered.  
+**Share:** Make compelling visuals in line with what you want to convey to your stakeholders.  
 **Act:** Give recommendations to your stakeholders.  
 
 
