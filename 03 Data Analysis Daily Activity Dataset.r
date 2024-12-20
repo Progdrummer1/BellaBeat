@@ -18,6 +18,10 @@ rm(numeric_df)
 # SedentaryMinutes: 1001.347
 # Calories: 2294.812
 
+
+shapiro.test(merged_data$SedentaryMinutes) #<-- #not normally distributed
+shapiro.test(merged_data$Calories) #<-- #not normally distributed
+
 #calculating the Spearman's correlation between the variable 'calories' and other variables. 
 numeric_df <- dActivity_both[sapply(dActivity_both, is.numeric)]
 cor_matrix <- cor(numeric_df, method = "spearman", use = "complete.obs")
@@ -38,6 +42,4 @@ cor.test(dActivity_both$TotalSteps ,dActivity_both$Calories)
 # cor = 0.6295828,
 # Correlation between total steps and calories is highly significant, and modeartely positive
 
-install.packages("Hmisc")
-library(Hmisc)
 
