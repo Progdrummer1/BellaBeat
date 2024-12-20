@@ -31,7 +31,7 @@ To answer this question, the following steps will be undertaken:
 
 **Share:** Make compelling visuals in line with what you want to convey to your stakeholders.
 
-**Act:** Give recommendations to BellaBeat to improve their marketing campaign. 
+**Act:** Give recommendations to your stakeholders.  
 
 
 
