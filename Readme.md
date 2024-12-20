@@ -114,7 +114,7 @@ print(sleepDay_min_values)
 **Changelog**  
 All the changes made to the data have been captured in this changelog: [Case_Study_2_ Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
 
-**Activity Data**
+**Activity Data**  
 Using R, the 'dailyActivity_merged.csv' containing data from March/April and 'dailyActivity_merged2.csv' containing data from March/April have been merged.
 
 ```r
@@ -217,7 +217,7 @@ dActivity_both <- dActivity_both %>%
 ```
  
 
-**Sleep Dataset**  
+**Sleep dataset**  
 Renamed the “SleepDay” column to “Day” to avoid ambiguity with the dataset name “sleepDay”.
 ```r
 #renaming ambigue column name
