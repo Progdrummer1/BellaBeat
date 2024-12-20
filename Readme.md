@@ -20,7 +20,6 @@ In this case study BellaBeat has hired me as a junior data analyst. BellaBeat is
  products for women. They sell several smart devices tracking activity, sleep, stress, and reproductive health. My task is to identify trends found in fitness data gathered by Fitbit. By doing this they hope to be able to gather valuable information to improve their own marketing strategy. 
 
 To answer this question, the following steps will be undertaken:
-
 **Ask:** What is the business question that has to be addressed and how to get to the answer?  
 **Prepare**: How to gather good quality data to answer this question?  
 **Process:** Clean and prepare data for analysis.  
