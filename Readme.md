@@ -1,4 +1,4 @@
-# BellaBeat: Using R to research relations in fitness metrics. 
+# BellaBeat: Using R to research relations betweem fitness metrics. 
 <div align="center">
  
 ![image](https://github.com/user-attachments/assets/dc8f405c-f882-44e4-96ff-42b2d68641a6)
