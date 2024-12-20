@@ -118,7 +118,7 @@ print(sleepDay_min_values)
 All the changes made to the data have been captured in this changelog: [Case_Study_2_ Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
 
 **Activity Data**
-* Using R, the 'dailyActivity_merged.csv' containing data from March/April and 'dailyActivity_merged2.csv' containing data from March/April have been merged.
+Using R, the 'dailyActivity_merged.csv' containing data from March/April and 'dailyActivity_merged2.csv' containing data from March/April have been merged.
 
 ```r
 #import Daily activity data sets
@@ -131,7 +131,7 @@ dActivity_both <- rbind(dActivity, dActivity2)
 ```
 
   
-* Some days with only 0 values were found in the Daily Activity database and removed these. These were probably the days when the device wasn’t used.
+Some days with only 0 values were found in the Daily Activity database and removed these. These were probably the days when the device wasn’t used.
 
 ```r
   #Checking for reliability 
@@ -139,7 +139,7 @@ View(dActivity_both)
 #Turns out sometimes there are days where there was no input and this has be interpreted as 0 on every variable. 
 ```
 
-* Some duplicates were round on the last day of the first dataset and the first day of the second dataset. These will be the records from the last day of the first set, since in the dataset, showing the steps taken per hour, one can see that that day start from 12AM, so the whole day is registered.
+Some duplicates were round on the last day of the first dataset and the first day of the second dataset. These will be the records from the last day of the first set, since in the dataset, showing the steps taken per hour, one can see that that day start from 12AM, so the whole day is registered.
 
 ```r
 #checking for any duplicates with id and ActivityDate columns combinations. 
@@ -153,7 +153,7 @@ dActivity <- dActivity[dActivity$ActivityDate != "4/12/2016", ]
 dActivity_both <- rbind(dActivity, dActivity2)
 ```
 
-* “ActivityDate” was incorrectly categorized as “Character”, so these were correctedto “Date”. The dataset has been checked for empty and NULL values, which were not present. 
+“ActivityDate” was incorrectly categorized as “Character”, so these were correctedto “Date”. The dataset has been checked for empty and NULL values, which were not present. 
 
 ```r
 #checking data types
@@ -189,7 +189,7 @@ print(dActivity_both_data_types)
 #transform ActivityDate into Date
 ```
 
-* Checked if all dates have the same length.
+Checked if all dates have the same length.
 
 ```r
 #check if all dates values have the same length. 
@@ -198,7 +198,7 @@ all(length_check == length_check[1]) # TRUE
 ```
 
 
-* Checked for empty and NULL values.
+Checked for empty and NULL values.
 
 ```r
 library(dplyr)
@@ -212,7 +212,7 @@ any(is.null(dActivity_both))
 #false
 ```
 
-* There were multiple rows giving exactly "1440" (minutes) sedentary activity, which is 24 hours. This is of course possible, but the other variables in these rows also gave very weird results, so these were removed.  
+There were multiple rows giving exactly "1440" (minutes) sedentary activity, which is 24 hours. This is of course possible, but the other variables in these rows also gave very weird results, so these were removed.  
 
 ```r
 dActivity_both <- dActivity_both %>% 
@@ -221,14 +221,14 @@ dActivity_both <- dActivity_both %>%
  
 
 **Sleep Dataset**  
-* Renamed the “SleepDay” column to “Day” to avoid ambiguity with the dataset name “sleepDay”.
+Renamed the “SleepDay” column to “Day” to avoid ambiguity with the dataset name “sleepDay”.
 ```r
 #renaming ambigue column name
 sleepDay <-sleepDay %>%
   rename(day=SleepDay)
 ```
  
-* Removed 3 duplicates from the sleepDay dataset.
+Removed 3 duplicates from the sleepDay dataset.
 ```r
 #checking for any duplicates with id and day columns combinations. 
 sum(duplicated(sleepDay[, c("day", "Id")]))
@@ -244,7 +244,7 @@ sleepDay_no_duplicates <- sleepDay %>%
   distinct(day, Id, .keep_all = TRUE)
 ```
 
-* Checked for empty and NULL values, which were not present.
+Checked for empty and NULL values, which were not present.
 ```r
 #any empty values?
 any(is.na(sleepDay_no_duplicates))
@@ -256,7 +256,7 @@ any(is.null(sleepDay_no_duplicates))
 ```
 
 
-* Removed the times from the "Day" column, to only keep the date.  
+Removed the times from the "Day" column, to only keep the date.  
 
 ```r
 #keep only the dates, not the times
