@@ -13,7 +13,7 @@
 [03 Data Analysis Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/03%20Data%20Analysis%20Daily%20Activity%20Dataset.r)    
 [04 Merging Datasets.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/04%20Merging%20Datasets.R)    
 [05 Data Analysis Sleep and Daily Activity.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/05%20Data%20Analysis%20Sleep%20and%20Daily%20Activity)  
-[06 Case_Study_2_ Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
+[06 Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
 
 # Introduction
 In this case study BellaBeat has hired me as a junior data analyst. BellaBeat is a high-tech manufacturer of health-focused
