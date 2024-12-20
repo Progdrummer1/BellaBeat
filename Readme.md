@@ -3,10 +3,10 @@
 File summary  
 [00 Source Datasets.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/00%20Source%20Datasets.md)  
 [01 Data Exploration and Cleaning Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/01%20Data%20Exploration%20and%20Cleaning%20Daily%20Activity%20Dataset.r)  
-[02 Data Exploration and Cleaning Sleep Dataset](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset)
+[02 Data Exploration and Cleaning Sleep Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset)
 [03 Data Analysis Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/03%20Data%20Analysis%20Daily%20Activity%20Dataset.r)  
-[04 Merging Datasets.R](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/04%20Merging%20Datasets.R)  
-[05 Data Analysis Sleep and Daily Activity](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/05%20Data%20Analysis%20Sleep%20and%20Daily%20Activity)  
+[04 Merging Datasets.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/04%20Merging%20Datasets.R)  
+[05 Data Analysis Sleep and Daily Activity.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/05%20Data%20Analysis%20Sleep%20and%20Daily%20Activity)  
 [Case_Study_2_ Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
 
 # Introduction
@@ -55,11 +55,11 @@ The data comes directly from the user’s Fitbit, so the data is original.
 
 **Daily Activity Dataset**  
 The data is organized in a long format. The data description states that there are 30 respondents, while some databases show 34 different Id’s. I wonder where this discrepancy comes from.  This dataset is quite comprehensive, since it contains: Id,  Activity Date, Total Steps, Total Distance, Tracker Distance, Logged Activities Distance, Very Active Distance, Moderately Active Distance, Light Active Distance, Sedentary Active Distance, Very Active Minutes, Fairly Active Minutes, Lightly Active Minutes, Sedentary Minutes. The maximum and minimum values of each column seem reasonable.  
-R script: [01 Data Exploration and Cleaning Daily Activity Dataset](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/01%20Data%20Exploration%20and%20Cleaning%20Daily%20Activity%20Dataset.r)
+R script: [01 Data Exploration and Cleaning Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/01%20Data%20Exploration%20and%20Cleaning%20Daily%20Activity%20Dataset.r)
 
 **Sleep Dataset**  
 This dataset contains the following variables:  Id, SleepDay, TotalSleepRecord, TotalMinutesAsleep, TotalTimeInBed. The maximum and minimum values of each column seem reasonable.  
-R script: [02 Data Exploration and Cleaning Sleep Dataset](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset)
+R script: [02 Data Exploration and Cleaning Sleep Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset)
 
 **Limitations of the data:**
 * Only 30 participants present in the dataset.  
@@ -87,7 +87,7 @@ taset, showing the steps taken per hour, one can see that that day start from 12
 
 # Analyze/Share
 **R script Data exploration and Cleaning Sleep Dataset**  
-[02 Data Exploration and Cleaning Sleep Dataset](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset) 
+[02 Data Exploration and Cleaning Sleep Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset) 
   
 **Check for normality**  
 I checked whether the variables ‘calories’ and ‘amount of sleep’ are normally distributed. However, they were not. Therefore, I only used the non-parametric Spearman’s correlation test.
@@ -110,8 +110,8 @@ I calculated the correlation between calories and total steps. Spearman’s corr
 <img src="https://github.com/user-attachments/assets/26bb4373-8196-4ed4-b283-04ecd7a17884" alt="Steps_Calories" width="400">
 
 **R scripts Merging data sets and data analysis sleep and daily activity**  
-[04 Merging Datasets](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/04%20Merging%20Datasets.R)  
-[05 Data Analysis Sleep and Daily Activity](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/05%20Data%20Analysis%20Sleep%20and%20Daily%20Activity)  
+[04 Merging Datasets.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/04%20Merging%20Datasets.R)  
+[05 Data Analysis Sleep and Daily Activity.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/05%20Data%20Analysis%20Sleep%20and%20Daily%20Activity)  
 
 **Relation sleep/sedentary activity**  
 I also calculated the correlation between the amount of minutes slept and the amount of sedentary activity the next day spent the next day. Amount of minutes slept is not normally distributed, therefore I used Spearman’s correlation. This gave a correlation of  \-0.57, with p-value \<2.2e-16, this means there is a moderate negative monotonic relation between the amount of minutes slept and the amount of sedentary activity. 
