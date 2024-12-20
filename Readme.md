@@ -68,9 +68,11 @@ R script: [02 Data Exploration and Cleaning Sleep Dataset.r](https://github.com/
 # Process
 
 **Changelog**  
-[Case_Study_2_ Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
+I captured all the changed I made to the data in this [Case_Study_2_ Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
 
 **Activity Data**
+* The cleaning script can be found here: [01 Data Exploration and Cleaning Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/01%20Data%20Exploration%20and%20Cleaning%20Daily%20Activity%20Dataset.r).
+
 * Using R, I merged the 'dailyActivity_merged.csv' containing data from March/April and 'dailyActivity_merged2.csv' containing data from March/April.  
 * I found some days with only 0 values in the Daily Activity database and removed these. I think these were the days when the device wasn’t used.  
 * I found some duplicates on the last day of the first dataset and the first day of the second dataset. I will remove the records from the last day of the first set, since in the da
@@ -78,6 +80,8 @@ taset, showing the steps taken per hour, one can see that that day start from 12
 * “ActivityDate” was incorrectly categorized as “Character”, so I corrected this to “Date”. I checked for empty and NULL values, which were not present. 
 
 **Sleep Dataset**  
+* The cleaning script for the sleep dataset can be found here: [02 Data Exploration and Cleaning Sleep Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset).
+
 * Renamed the “SleepDay” column to “Day” to avoid ambiguity with the dataset name “sleepDay”.  
 * Removed 3 duplicates from the sleepDay dataset.   
 * Checked for empty and NULL values, which were not present.  
