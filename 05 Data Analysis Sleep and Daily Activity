@@ -6,7 +6,7 @@ cor.test(merged_data$TotalMinutesAsleep, merged_data$Calories, method = "spearma
 
 cor.test(merged_data$TotalMinutesAsleep, merged_data$SedentaryMinutes, method = "spearman")
 p-value < 2.2e-16, rho, -0.5684106, Signifiant relation! 
-There is a moderate negative relationship between these two variables.
+#There is a moderate negative relationship between these two variables.
 
 #Export merged dataset, so it could be imported into Tableau. 
 write.csv(merged_data, "...Capstone_Project_Bellabeat/R_Output/Merged_Data.csv", row.names = FALSE)
