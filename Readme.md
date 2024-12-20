@@ -296,19 +296,19 @@ cor.test(dActivity_both$TotalSteps ,dActivity_both$Calories)
 # Correlation between total steps and calories is highly significant, and modeartely positive.
 ```
 
-<img src="https://github.com/user-attachments/assets/efa6b5fa-152c-477e-8a07-7d967b7642d8" alt="Correlations_With_Calories" width="400">
+<img src="https://github.com/user-attachments/assets/efa6b5fa-152c-477e-8a07-7d967b7642d8" alt="Correlations_With_Calories" width="500">
 
 
 
 **Relation between calories and very active minutes**   
 Since the amount of calories is not normally distributed, I could only use non-parametric tests. Spearman’s correlation  test gives a correlation of  0.52 with a  p-value \< 2.2e-16 (see script above). This means there is a moderate monotonic relation between calories and the amount of steps taken. 
 
-<img src="https://github.com/user-attachments/assets/bfbcff2d-004d-4f81-a159-d95e0a6ef40b" alt="Relation_Calories_Very_Active_Minutes" width="400">
+<img src="https://github.com/user-attachments/assets/bfbcff2d-004d-4f81-a159-d95e0a6ef40b" alt="Relation_Calories_Very_Active_Minutes" width="600">
 
 **Relation between calories and steps**  
 I calculated the correlation between calories and total steps (see script above). Spearman’s correlation  test gives a correlation of  0.55 with a  p-value \< 2.2e-16. This means there is a moderate monotonic relation between calories and the amount of steps taken. 
 
-<img src="https://github.com/user-attachments/assets/26bb4373-8196-4ed4-b283-04ecd7a17884" alt="Steps_Calories" width="400">
+<img src="https://github.com/user-attachments/assets/26bb4373-8196-4ed4-b283-04ecd7a17884" alt="Steps_Calories" width="600">
 
 **I merged the daily activity data set and the sleep data set**
 ```r
@@ -330,7 +330,7 @@ p-value < 2.2e-16, rho, -0.5684106, Signifiant relation!
 #There is a moderate negative relationship between these two variables.
 ```
 
-<img src= "https://github.com/user-attachments/assets/5b0d1836-4753-488a-9e39-87046419bcd2" alt="Sleep_Sedentary" width="400">
+<img src= "https://github.com/user-attachments/assets/8b4fdef4-1512-4b77-8925-6965b64e0000" alt="Sleep_Sedentary" width="600">
 
 
 
@@ -342,7 +342,8 @@ cor.test(merged_data$TotalMinutesAsleep, merged_data$Calories, method = "spearma
 #p-value = 0.4366, rho -0.03852297 not significant
 ```
 
-<img src= "https://github.com/user-attachments/assets/9ad4d8d5-f96c-4de0-9318-2a5a02fc1f78" alt="Relation_Total_Distance_Calories" width="400">
+<img src= "https://github.com/user-attachments/assets/1377132c-c0af-41d7-942a-7d48f0eb7f34" width="600">
+
 
 **Relation between steps taken and weight change**   
 I also wanted to calculate the relation between total steps per Id and the weight change. However, there were only 8 participants in this group, which is too little to draw any conclusions from. 
