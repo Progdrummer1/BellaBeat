@@ -6,14 +6,6 @@
 
 </div>
 
-**File summary**  
-[00 Source Datasets.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/00%20Source%20Datasets.md)  
-[01 Data Exploration and Cleaning Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/01%20Data%20Exploration%20and%20Cleaning%20Daily%20Activity%20Dataset.r)  
-[02 Data Exploration and Cleaning Sleep Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset)
-[03 Data Analysis Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/03%20Data%20Analysis%20Daily%20Activity%20Dataset.r)  
-[04 Merging Datasets.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/04%20Merging%20Datasets.R)  
-[05 Data Analysis Sleep and Daily Activity.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/05%20Data%20Analysis%20Sleep%20and%20Daily%20Activity)  
-[Case_Study_2_ Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
 
 # Introduction
 In this case study BellaBeat has hired me as a junior data analyst. BellaBeat is a high-tech manufacturer of health-focused
@@ -32,6 +24,15 @@ To answer this question, the following steps will be undertaken:
 **Share:** Make compelling visuals in line with what you want to convey to your stakeholders.
 
 **Act:** Give recommendations to BellaBeat to improve their marketing campaign. 
+
+**File summary**  
+[00 Source Datasets.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/00%20Source%20Datasets.md)  
+[01 Data Exploration and Cleaning Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/01%20Data%20Exploration%20and%20Cleaning%20Daily%20Activity%20Dataset.r)  
+[02 Data Exploration and Cleaning Sleep Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/02%20Data%20Exploration%20and%20Cleaning%20Sleep%20Dataset)
+[03 Data Analysis Daily Activity Dataset.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/03%20Data%20Analysis%20Daily%20Activity%20Dataset.r)  
+[04 Merging Datasets.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/04%20Merging%20Datasets.R)  
+[05 Data Analysis Sleep and Daily Activity.r](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/05%20Data%20Analysis%20Sleep%20and%20Daily%20Activity)  
+[Case_Study_2_ Changelog.md](https://github.com/Progdrummer1/BellaBeat-Using-R-to-research-relations-in-fitness-metrics./blob/15992ef0c4c4c3a9b4b4e5fc750e75b2f183a794/Case_Study_2_%20Changelog.md)  
 
 # Ask
 
